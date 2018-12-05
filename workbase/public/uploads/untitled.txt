@@ -1,0 +1,19 @@
+
+
+          CREATE PROCEDURE uspDetermineAgencyHasFullAccess
+		  @strAriesAgencyID int
+		  AS
+		  DECLARE blnReturn BOOLEAN DEFAULT FALSE;
+		  	SELECT CrimeLabFullAccessAgency.AgencyID 
+			FROM CrimeLabFullAccessAgency
+			WHERE CrimeLabFullAccessAgency.AgencyID=@strAriesAgencyID;
+			BEGIN TRY
+				if @@ROWCOUNT >0
+				blnReturn true
+			END TRY
+			CATCH
+			
+			RETURN blnRetuen
+		  BEGIN
+		  
+		  END

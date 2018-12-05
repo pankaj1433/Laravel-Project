@@ -1,0 +1,55 @@
+.req::after {
+    content: ' *';
+    color: red;
+}
+
+full-width {
+    width: 100%;
+}
+
+.radio-buttons {
+    display: inline-block;
+    width: 33%;
+
+}
+
+@media (max-width: 991px) {
+    .radio-buttons {
+        width: 100%;
+    }
+}
+
+.form-body .panel-body {
+    padding: 15px;
+    background-color: #e0d2b8;
+    border: 1px solid black;
+}
+
+.form-body {
+    background-color: #e0d2b8;
+}
+
+input[readonly] {
+    background-color: #bfbfbf !important;
+}
+
+input#ssn {
+    width: 75%
+}
+
+/*.form-body input[type="date"] {*/
+/*background-color: #e0d2b8;*/
+/*}*/
+input[type="date"]::-webkit-input-placeholder {
+    visibility: hidden !important;
+}
+
+@media (min-width: 992px) {
+    .col-mb-2 {
+        float: left;
+    }
+
+    .col-mb-2 {
+        width: 16.66666667%;
+    }
+}

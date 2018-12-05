@@ -1,0 +1,283 @@
+/*nav bar*/
+html {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.navbar-default {
+    background-color: #0095da;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav li .dropdown-menu li a {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #fff;
+}
+
+/*login page style start*/
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin .form-group {
+    margin-bottom: 0 !important;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.account-wall {
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+.login-title {
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+
+.profile-img {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    border-radius: 50%;
+}
+
+.need-help {
+    margin-top: 10px;
+}
+
+.new-account {
+    display: block;
+    margin-top: 10px;
+}
+
+.required-field-symbol {
+
+    color: red;
+    font-size: 6px;
+    top: -7px;
+}
+
+/*login page styles end*/
+
+.search-box {
+    width: 70%;
+    margin: 25px 0;
+}
+
+.search-box > form {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.search-box > form > input,
+.search-box > form > select {
+    margin-right: 10px;
+}
+
+.search-box > form > input:last-child,
+.search-box > form > select:last-child {
+    margin: 0;
+}
+
+.empty-table {
+    background: #d2383896;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.pagination .prev {
+    margin-right: 20px;
+}
+
+.timesheet-top {
+    width: 100%;
+}
+
+.timesheet-top .date-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.timesheet-top .date-row > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 50%;
+}
+
+.timesheet-top .date-row > div:first-child {
+    margin-right: 10px;
+}
+
+.timesheet-top .date-row > div > span {
+    margin-right: 10px;
+}
+
+.timesheet-bottom {
+    margin-top: 50px;
+}
+
+.timesheet-bottom > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.timesheet-bottom > div > input {
+    margin-left: 5px;
+}
+
+.last-row {
+    background: #e5e5e5;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+    color: #ff0000;
+}
+
+.has-error .form-control {
+    border-color: #ff0000;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.has-error .form-control:focus {
+    border-color: #ff0000;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ff0000;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ff0000;
+}
+
+.has-error .input-group-addon {
+    color: #ff0000;
+    background-color: #f2dede;
+    border-color: #ff0000;
+}
+
+.has-error .form-control-feedback {
+    color: #ff0000;
+}
+
+/*pet status*/
+
+.applicant_info .form-group {
+    margin-bottom: 0;
+}
+
+.training_history .table > tbody > tr > td {
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+}
+.training_history .table > tbody > tr > th{
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+}
+.training_status .form-group{
+    margin-bottom: 7px;
+}
+
